@@ -16,7 +16,7 @@ public class ProductService {
         this.productRepository = productRepository;
     }
 
-    // Obtener todos los productos
+    // Obtener los productos existentes
     public List<Product> getAllProducts() {
         return productRepository.findAll();
     }
